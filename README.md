@@ -25,7 +25,7 @@ Jogo de adivinhação, onde você deve tentar adivinhar um número aeatório ent
 
 **OU**
 
-Acesse o [Guess My Number Online]() para experimentar diretamente no seu navegador.
+Acesse o [Guess My Number Online](https://isabellatressino.github.io/guess-my-number/) para experimentar diretamente no seu navegador.
 
 ## Meu Aprendizado
 
