@@ -13,7 +13,12 @@ let highScore = 0;
 
 // Função para exibir as mensagens
 const displayMessage = function (message) {
-	document.querySelector(".message").textContent = message;
+	let pMessage = document.querySelector('.message');
+	pMessage.textContent = message;
+	pMessage.classList.add("animation");
+	setTimeout(function(){
+		pMessage.classList.remove("animation");
+	},1000);
 };
 
 // Função para atualizar o score

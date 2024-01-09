@@ -119,6 +119,22 @@ main {
 	margin-bottom: 2rem;
 }
 
+/* ANIMATIONS */
+
+.animation{
+	animation: appear 1s ease-in forwards;
+}
+
+@keyframes appear{
+	0%{
+		color: inherit;
+	} 50% {
+		color: red;
+	} 100% {
+		color: inherit;
+	}
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
@@ -136,7 +152,7 @@ main {
 
 	.number {
 		font-size: 5rem;
-		width: 10rem;
+		width: 15rem;
 		padding: 2rem 0rem;
 	}
 
